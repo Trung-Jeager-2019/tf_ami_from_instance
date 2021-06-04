@@ -1,5 +1,5 @@
 module "label" {
-  source     = "git::https://github.com/cloudposse/tf_label.git?ref=0.2.0"
+  source     = "git::https://github.com/Trung-Jeager-2019/tf_ami_from_instance.label.git"
   namespace  = "${var.namespace}"
   stage      = "${var.stage}"
   name       = "${var.name}"
